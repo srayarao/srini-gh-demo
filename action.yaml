@@ -1,0 +1,6 @@
+name: srini demo
+description: An action that greets people
+runs:
+  using: node16
+  main: src/index.js
+  
