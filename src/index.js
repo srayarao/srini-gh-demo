@@ -1,3 +1,4 @@
 const person = process.env.INPUT_PERSON;
 console.log('hello');
-console.log(process.env);
+console.log(process.env.INPUT_PERSON);
+console.log(person);
