@@ -11,6 +11,6 @@ jobs:
                 node-version: 16
             - uses: ./
             - uses: ./
-                with:
-                    person: 'batman'
+              with:
+                person: 'batman'
             - run: echo "hello srini"
