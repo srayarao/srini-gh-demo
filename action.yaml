@@ -1,5 +1,10 @@
 name: srini demo
 description: An action that greets people
+inputs:
+  person:
+    description: "The name of the person to greet"
+    required: true
+    default: "srinivas"
 runs:
   using: node16
   main: src/index.js
